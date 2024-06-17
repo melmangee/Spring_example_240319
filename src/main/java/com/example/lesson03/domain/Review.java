@@ -4,7 +4,7 @@ import java.time.LocalDateTime;
 
 public class Review {
 	private int id;
-	private String storeId;
+	private int storeId;
 	private String menu;
 	private String userName;
 	private Double point;
@@ -18,10 +18,10 @@ public class Review {
 	public void setId(int id) {
 		this.id = id;
 	}
-	public String getStoreId() {
+	public int getStoreId() {
 		return storeId;
 	}
-	public void setStoreId(String storeId) {
+	public void setStoreId(int storeId) {
 		this.storeId = storeId;
 	}
 	public String getMenu() {
